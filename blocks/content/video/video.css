@@ -1,0 +1,11 @@
+.video{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    position: relative;
+    min-height: 420px;
+}
+
+
+
