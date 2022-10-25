@@ -1,0 +1,19 @@
+.form__toggle{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transition: opacity .5s;
+    display: flex;
+    cursor: pointer;
+    background-color: black;
+}
+
+.form__toggle:hover{
+    opacity: .8;
+}
+
+.form:hover .form__toggle {
+    animation: none;
+}

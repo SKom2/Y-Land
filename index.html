@@ -7,6 +7,26 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
+    <section class="form">  
+      <div class="form__toggle blink">
+        <img class="form__toggle-image" src="https://pictures.s3.yandex.net/html-forms/close_icon.png">
+      </div>
+      <div class="form__container">
+        <form class="form__admin">
+            <h1 class="form__heading">Оставьте комментарий об этой статье!</h1>
+            <fieldset class="form__input-container">
+                <label class="form__label" for="username">Введите имя пользователя:</label>
+                <input class="form__item form__item_el_username" type="text" id="username" name="username" placeholder="Комолкин Александр" required>
+                <label class="form__label" for="comment" >Введите ваш комментарий:</label>
+                <textarea class="form__item form__item_el_comment" id="comment" name="comment" placeholder="Этот лендинг выглядит замечательно!" cols="30" rows="10" required></textarea>
+            </fieldset>
+            <fieldset class="form__handlers">
+                <input type="submit" class="form__button">
+                <input type="reset" class="form__button">
+            </fieldset>
+        </form>
+      </div>
+    </section>
     <header class="header">
         <a href="#" class="logo logo_place_header"><img src="./images/logo_place_header.svg" alt="Яндекс"></a>
         <h1 class="header__title">Научиться учиться</h1>

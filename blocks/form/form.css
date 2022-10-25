@@ -1,0 +1,15 @@
+.form{
+    width: 500px;
+    height: 100vh;
+    position: fixed;
+    left: -500px;
+    top: 0;
+    transition: left 1s;
+    z-index: 3;
+    background-color: rgba(228, 228, 228, 0.97);
+    color: black;
+}
+
+.form:hover{
+    left: 0;
+}

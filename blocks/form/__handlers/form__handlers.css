@@ -1,0 +1,10 @@
+.form__handlers{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    width: 200px;
+    font-size: 0;
+    margin: 0;
+    height: 50px;
+}

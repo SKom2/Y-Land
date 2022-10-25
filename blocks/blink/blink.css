@@ -1,0 +1,15 @@
+@keyframes blink {
+    from {
+      background-color: black;
+    }
+    50% {
+      background-color: blue;
+    }
+    to {
+      background-color: black;
+    }
+  }
+
+  .blink{
+    animation: linear blink 4s infinite;
+  }
